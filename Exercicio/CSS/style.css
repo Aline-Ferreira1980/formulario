@@ -1,0 +1,53 @@
+body{
+    position: absolute;
+    width: 1200;
+    height: 700px;
+    background-color: rgba(53, 53, 209, 0.747);
+    
+    
+}
+.main{
+    position: relative;
+    border-radius: border-box;
+    background-color: white;
+    width: 500px;
+    left: 500px;
+    border: solid 1px black;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.oval{
+    border-radius: 50%;
+    position: relative;
+    margin: 30px;
+}
+
+p{
+    position: relative;
+    text-align: center;
+    margin-top: -140px;
+    font-size: 16px;
+    font-weight: bold;
+    left: 90px;
+}
+span{
+    position: relative;
+    text-align: center ;
+    left: 180px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.foto{
+    position: relative;
+    top: -30px;
+    left: -30px;
+    width: 250px;
+    height: 130px;
+    margin: 20px;
+
+}
+hr {
+    margin: 40px 0;
+  }
